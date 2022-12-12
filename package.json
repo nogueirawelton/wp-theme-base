@@ -1,0 +1,12 @@
+{
+  "name": "internit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass ./assets/src/scss/index.scss:./assets/dist/css/index.css --watch --style compressed"
+  },
+  "dependencies": {
+    "sass": "^1.56.2"
+  }
+}
